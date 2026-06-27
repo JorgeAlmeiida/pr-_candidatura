@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Almeida - Pré-candidato a Deputado Estadual</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gold-gradient { background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%); }
+        .text-gold { background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 50%, #AA771C 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .brazil-gradient { background: linear-gradient(90deg, rgba(34,197,94,0.15) 0%, rgba(234,179,8,0.1) 100%); }
+    </style>
+</head>
+<body class="bg-[#0f0f11] text-gray-100 antialiased overflow-x-hidden">
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/+5521976798821" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-110 duration-300">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- 1. HERO SECTION -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden border-b border-zinc-800">
+        <!-- Bandeira do Brasil sutil ao fundo -->
+        <div class="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1599839600120-e223bdf70db1?q=80&w=1920')] bg-cover bg-center mix-blend-overlay"></div>
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-green-900/20 rounded-full blur-[120px]"></div>
+        <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-yellow-900/10 rounded-full blur-[120px]"></div>
+
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center relative z-10 max-w-6xl">
+            <!-- Texto -->
+            <div class="text-center md:text-left space-y-6 order-2 md:order-1">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-700 rounded-full text-xs font-semibold tracking-wide text-gray-300">
+                    <span class="flex h-2 w-2 rounded-full bg-green-500"></span> BRASIL EM PRIMEIRO LUGAR
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+                    <span class="block text-white">Jorge Almeida</span>
+                    <span class="block text-sm md:text-xl font-medium tracking-widest text-zinc-400 uppercase mt-2">Pré-candidato a Deputado Estadual</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-lg">
+                    "Forjado no trabalho, comprometido com o futuro. Uma vida inteira dedicada a cuidar e proteger."
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
+                    <a href="https://wa.me/+5521976798821" target="_blank" class="px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-3 group">
+                        <i class="fab fa-whatsapp text-xl"></i> Fale Conosco
+                    </a>
+                    <a href="#historia" class="px-8 py-4 bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-semibold rounded-xl transition-all text-center">
+                        Conheça Minha História
+                    </a>
+                </div>
+            </div>
+            <!-- Foto -->
+            <div class="order-1 md:order-2 flex justify-center">
+                <div class="relative group">
+                    <div class="absolute -inset-1 gold-gradient rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
+                    
+                    <div class="relative w-72 h-96 md:w-96 md:h-[500px] bg-zinc-900 rounded-2xl border border-zinc-800 overflow-hidden flex items-center justify-center text-zinc-500 text-sm">
+                        <span class="absolute p-4 text-center">[Foto]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. QUEM É JORGE ALMEIDA -->
+    <section id="historia" class="py-24 bg-[#0a0a0c] border-b border-zinc-800">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-64 h-80 bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden flex items-center justify-center text-zinc-600 text-xs">
+                        [Foto Secundária]
+                    </div>
+                </div>
+                <div class="md:col-span-7 space-y-6">
+                    <h2 class="text-3xl font-bold tracking-tight text-gold">Quem é Jorge Almeida</h2>
+                    <div class="w-20 h-1 gold-gradient rounded"></div>
+                    <p class="text-gray-300 leading-relaxed text-justify">
+                        Nascido em 1972, Jorge Almeida aprendeu desde cedo o valor do esforço e da resiliência. Em 1982, fez de Paciência o seu lar, bairro onde fincou suas raízes e construiu sua história. Aos 17 anos, iniciou sua trajetória no primeiro emprego, e aos 21, ingressou na segurança privada como vigilante patrimonial, desenvolvendo um profundo senso de responsabilidade, disciplina e proteção ao próximo. 
+                    </p>
+                    <p class="text-gray-300 leading-relaxed text-justify">
+                        Movido pelo desejo de fazer mais pela sociedade, dedicou-se aos estudos e, em 2010, foi aprovado em concurso público, iniciando sua carreira no serviço público. Após anos de atuação direta com a população, compreendendo as dores, os desafios e a realidade das nossas comunidades, Jorge Almeida dá um novo passo: coloca seu nome como pré-candidato a Deputado Estadual por acreditar que trabalho de verdade gera transformação real.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. LINHA DO TEMPO -->
+    <section class="py-24 bg-[#0f0f11] border-b border-zinc-800 relative">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-16">Trajetória de Vida</h2>
+            
+            <div class="relative border-l border-zinc-800 ml-4 md:ml-32 space-y-12">
+                <!-- Item 1972 -->
+                <div class="relative pl-8 md:pl-12">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full gold-gradient border-4 border-[#0f0f11]"></div>
+                    <div class="absolute -left-28 top-0 hidden md:block text-xl font-bold text-gold">1972</div>
+                    <h3 class="text-xl font-bold md:hidden text-gold mb-1">1972</h3>
+                    <p class="text-zinc-300 font-semibold">Nascimento</p>
+                </div>
+                <!-- Item 1982 -->
+                <div class="relative pl-8 md:pl-12">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-green-500 border-4 border-[#0f0f11]"></div>
+                    <div class="absolute -left-28 top-0 hidden md:block text-xl font-bold text-green-500">1982</div>
+                    <h3 class="text-xl font-bold md:hidden text-green-500 mb-1">1982</h3>
+                    <p class="text-zinc-300 font-semibold">Mudança para Paciência</p>
+                </div>
+                <!-- Item 17 anos -->
+                <div class="relative pl-8 md:pl-12">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-yellow-500 border-4 border-[#0f0f11]"></div>
+                    <div class="absolute -left-28 top-0 hidden md:block text-xl font-bold text-yellow-500">17 anos</div>
+                    <h3 class="text-xl font-bold md:hidden text-yellow-500 mb-1">17 anos</h3>
+                    <p class="text-zinc-300 font-semibold">Primeiro Emprego</p>
+                </div>
+                <!-- Item 21 anos -->
+                <div class="relative pl-8 md:pl-12">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-zinc-500 border-4 border-[#0f0f11]"></div>
+                    <div class="absolute -left-28 top-0 hidden md:block text-xl font-bold text-zinc-500">21 anos</div>
+                    <h3 class="text-xl font-bold md:hidden text-zinc-500 mb-1">21 anos</h3>
+                    <p class="text-zinc-300 font-semibold">Início na Vigilância Patrimonial</p>
+                </div>
+                <!-- Item 2010 -->
+                <div class="relative pl-8 md:pl-12">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-4 border-[#0f0f11]"></div>
+                    <div class="absolute -left-28 top-0 hidden md:block text-xl font-bold text-blue-500">2010</div>
+                    <h3 class="text-xl font-bold md:hidden text-blue-500 mb-1">2010</h3>
+                    <p class="text-zinc-300 font-semibold">Posse no Serviço Público (Aprovado em Concurso)</p>
+                </div>
+                <!-- Item 2026 -->
+                <div class="relative pl-8 md:pl-12">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full gold-gradient border-4 border-[#0f0f11]"></div>
+                    <div class="absolute -left-28 top-0 hidden md:block text-xl font-bold text-gold">2026</div>
+                    <h3 class="text-xl font-bold md:hidden text-gold mb-1">2026</h3>
+                    <p class="text-zinc-100 font-bold tracking-wide">Pré-candidato a Deputado Estadual</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. COMPROMISSOS -->
+    <section class="py-24 bg-[#0a0a0c] border-b border-zinc-800">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <h2 class="text-3xl font-bold text-center mb-4">Nossos Compromissos</h2>
+            <p class="text-zinc-400 text-center max-w-xl mx-auto mb-16">Bases sólidas construídas para trazer melhorias reais e dignidade para a população.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Saúde -->
+                <div class="bg-zinc-900/50 border border-zinc-800 p-8 rounded-2xl relative group hover:border-zinc-700 transition-all">
+                    <div class="w-12 h-12 bg-red-950/50 border border-red-500/30 rounded-xl flex items-center justify-center text-red-400 text-xl mb-6">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Saúde</h3>
+                    <ul class="space-y-3 text-sm text-zinc-400">
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Fortalecimento da saúde pública.</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Incentivo à qualificação dos profissionais.</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Atendimento digno à população.</li>
+                    </ul>
+                </div>
+                <!-- Segurança -->
+                <div class="bg-zinc-900/50 border border-zinc-800 p-8 rounded-2xl relative group hover:border-zinc-700 transition-all">
+                    <div class="w-12 h-12 bg-blue-950/50 border border-blue-500/30 rounded-xl flex items-center justify-center text-blue-400 text-xl mb-6">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Segurança Pública</h3>
+                    <ul class="space-y-3 text-sm text-zinc-400">
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Valorização dos profissionais da segurança.</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Investimentos em ações de prevenção.</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Mais proteção de verdade para as famílias.</li>
+                    </ul>
+                </div>
+                <!-- Educação -->
+                <div class="bg-zinc-900/50 border border-zinc-800 p-8 rounded-2xl relative group hover:border-zinc-700 transition-all">
+                    <div class="w-12 h-12 bg-yellow-950/50 border border-yellow-500/30 rounded-xl flex items-center justify-center text-yellow-400 text-xl mb-6">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Educação</h3>
+                    <ul class="space-y-3 text-sm text-zinc-400">
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Educação básica e técnica de qualidade.</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Projetos de incentivo contínuo aos estudos.</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">✓</span> Qualificação e preparação profissional rápida.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. VALORES -->
+    <section class="py-24 bg-[#0f0f11] border-b border-zinc-800">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <h2 class="text-3xl font-bold text-center mb-16">Valores Inegociáveis</h2>
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+                <!-- Honestidade -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center space-y-2">
+                    <i class="fa-solid fa-scale-balanced text-xl text-gold"></i>
+                    <p class="font-semibold text-sm">Honestidade</p>
+                </div>
+                <!-- Trabalho -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center space-y-2">
+                    <i class="fa-solid fa-briefcase text-xl text-gold"></i>
+                    <p class="font-semibold text-sm">Trabalho</p>
+                </div>
+                <!-- Responsabilidade -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center space-y-2">
+                    <i class="fa-solid fa-user-check text-xl text-gold"></i>
+                    <p class="font-semibold text-sm">Responsabilidade</p>
+                </div>
+                <!-- Família -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center space-y-2">
+                    <i class="fa-solid fa-house-chimney-user text-xl text-gold"></i>
+                    <p class="font-semibold text-sm">Família</p>
+                </div>
+                <!-- Respeito -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center space-y-2">
+                    <i class="fa-solid fa-handshake-angle text-xl text-gold"></i>
+                    <p class="font-semibold text-sm">Respeito</p>
+                </div>
+                <!-- Perseverança -->
+                <div class="bg-zinc-900 border border-zinc-800 p-4 rounded-xl text-center space-y-2">
+                    <i class="fa-solid fa-mountain text-xl text-gold"></i>
+                    <p class="font-semibold text-sm">Perseverança</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. MENSAGEM DO CANDIDATO -->
+    <section class="py-24 bg-gradient-to-r from-zinc-950 via-[#0a0a0c] to-zinc-950 border-b border-zinc-800">
+        <div class="container mx-auto px-4 max-w-4xl bg-zinc-900/30 border border-zinc-800 p-8 md:p-12 rounded-3xl grid md:grid-cols-3 gap-8 items-center">
+            <div class="flex justify-center">
+                <div class="w-40 h-40 rounded-full bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-500 text-xs">
+                    [Foto]
+                </div>
+            </div>
+            <div class="md:col-span-2 space-y-4 text-center md:text-left">
+                <i class="fa-solid fa-quote-left text-3xl text-zinc-700"></i>
+                <p class="text-xl italic text-gray-200 font-light leading-relaxed">
+                    "Minha história foi construída com trabalho, dedicação e respeito pelas pessoas. Coloco meu nome à disposição para representar nossa população com responsabilidade, compromisso e transparência."
+                </p>
+                <p class="font-bold text-gold text-sm tracking-wider uppercase">— Jorge Almeida</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CONTATO (CALL TO ACTION) -->
+    <section class="py-24 bg-[#0a0a0c] text-center relative overflow-hidden">
+        <div class="absolute inset-0 brazil-gradient pointer-events-none"></div>
+        <div class="container mx-auto px-4 max-w-xl relative z-10 space-y-6">
+            <h2 class="text-3xl md:text-4xl font-extrabold">Vamos conversar?</h2>
+            <p class="text-zinc-400 leading-relaxed">
+                "Estou à disposição para ouvir suas ideias, sugestões e necessidades para construirmos juntos um futuro melhor."
+            </p>
+            <div class="pt-4">
+                <a href="https://wa.me/+5521976798821" target="_blank" class="inline-flex items-center gap-3 px-10 py-5 bg-green-600 hover:bg-green-700 text-white font-extrabold text-lg rounded-2xl shadow-2xl shadow-green-900/30 transition-transform hover:scale-105 duration-300">
+                    <i class="fab fa-whatsapp text-2xl"></i> Falar pelo WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. RODAPÉ -->
+    <footer class="bg-[#050507] text-zinc-500 text-xs py-12 border-t border-zinc-900">
+        <div class="container mx-auto px-4 max-w-6xl grid md:grid-cols-2 gap-8 items-center">
+            <div class="space-y-2 text-center md:text-left">
+                <p class="font-bold text-sm text-zinc-400">Jorge Almeida</p>
+                <p>Pré-candidato a Deputado Estadual</p>
+                
+            </div>
+            <div class="space-y-2 text-center md:text-right border-t border-zinc-900 md:border-t-0 pt-6 md:pt-0">
+                <p class="uppercase tracking-wider text-[10px] font-semibold text-zinc-600">Avisos Legais Obrigatórios</p>
+                <p>Conteúdo informativo de caráter estritamente político-partidário, em conformidade com o art. 36-A da Lei nº 9.504/1997.</p>
+                <p>&copy; 2026 Jorge Almeida. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
